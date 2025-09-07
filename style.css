@@ -3,9 +3,9 @@
     display: flex;
     justify-content: center;   /* centrerar hela raden */
     align-items: center;       /* lodrät justering */
-    gap: 0.8rem;               /* samma som du hade */
+    gap: 1rem;               /* samma som du hade */
     padding: 0 0.3rem;         /* samma */
-    margin-top: 2rem;          /* samma */
+    margin-top: 3rem;          /* samma */
     width: 100%;
   }
 
