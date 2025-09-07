@@ -16,7 +16,7 @@ body {
   margin: 3rem 0 0rem 0;
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 0.2rem;
 }
 
 .nav a {
@@ -41,7 +41,7 @@ body {
 .logo img {
   display: block;
   margin: 0 auto;
-  width: 240px;      /* eller justera till t.ex. 200px, 180px osv */
+  width: 160px;      /* eller justera till t.ex. 200px, 180px osv */
   height: auto;
 }
 
