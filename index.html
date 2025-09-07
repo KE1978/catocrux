@@ -57,6 +57,13 @@
       text-align: center;
     }
        @media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;        /* fyller hela fönstret */
+    display: flex;
+    flex-direction: column;   /* gör att footern trycks ner */
+  }
   .nav {
     display: flex;
     justify-content: center;   /* centrerar hela raden */
@@ -85,6 +92,7 @@
     margin-bottom: 0;
   }
 }
+
     </style>
 </head>
 <body>
@@ -103,6 +111,7 @@
   </div> 
 </body>
 </html>
+
 
 
 
