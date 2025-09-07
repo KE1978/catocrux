@@ -1,80 +1,27 @@
-/* Baslayout */
-body {
-  margin: 0;
-  background-color: #000;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  min-height: 100vh;
-  font-family: Georgia, serif;
-  color: #fff;
-}
-
-/* Navigationslänkar */
-.nav {
-  margin: 3rem 0 0rem 0;
-  display: flex;
-  flex-direction: row;
-  gap: 0.2rem;
-}
-
-.nav a {
-  color: #C8A24E;
-  font-size: 1.5rem;
-  font-family: Georgia, serif;
-  text-decoration: none;
-  letter-spacing: 0.08em;
-  font-weight: 500;
-}
-
-.nav a:hover {
-  color: #AAA488;
-}
-
-/* Logotyp */
-.logo {
-  text-align: center;
-  margin-top: 3rem;
-}
-
-.logo img {
-  display: block;
-  margin: 0 auto;
-  height: auto;
-  max-width: 100%;
-}
-
-
-
-/* Footer-text */
-.footer-symbol {
-  margin-top: 2rem;
-  color: #C8A24E;
-  font-size: 1.2rem;
-  font-family: Georgia, serif;
-  text-align: center;
-}
-
-/* MOBIL – SKALAR NER ALLT */
 @media (max-width: 768px) {
   .nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 0.2rem;
-    padding: 0 0.5rem;
-    margin-top: 2rem;
+    gap: 0.1rem;
+    padding: 0 0.3rem;
+    margin-top: 1.8rem;
   }
 
   .nav a {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
+  }
+
+  .logo img {
+    max-width: 92vw;
+    height: auto;
+    margin: 0 auto;
+    display: block;
   }
 
   .footer-symbol {
-  font-size: 0.9rem;
-  margin-top: 1rem;
+    font-size: 0.85rem;
+    margin-top: 1.2rem;
+    text-align: center;
+  }
 }
-
-}
-
