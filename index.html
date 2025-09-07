@@ -57,40 +57,44 @@
       text-align: center;
     }
        @media (max-width: 768px) {
-  body {
+  html, body {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    height: auto !important;
+    min-height: 0 !important;
+    display: block !important;
+    overflow-y: hidden;       /* tar bort svart scroll */
   }
+
   .nav {
     display: flex;
-    justify-content: center;   /* centrerar hela raden */
-    align-items: center;       /* lodrät justering */
-    gap: 1rem;               /* samma som du hade */
-    padding: 0 0.3rem;         /* samma */
-    margin-top: 3rem;          /* samma */
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0 0.3rem;
+    margin-top: 2rem;
     width: 100%;
   }
 
   .nav a {
-    font-size: 1.5rem;         /* samma som du hade */
+    font-size: 1.5rem;
   }
 
   .logo img {
     max-width: 92vw;
     height: auto;
-    margin: 0 auto;
+    margin: 0.2rem auto 0.05rem auto;
     display: block;
   }
 
   .footer-symbol {
     font-size: 1rem;
-    margin-top: auto;
+    margin: 5rem auto 0 auto;   /* avstånd mellan logga och footer */
     text-align: center;
-    }
+    display: block;
+  }
 }
+
     </style>
 </head>
 <body>
@@ -109,6 +113,7 @@
   </div> 
 </body>
 </html>
+
 
 
 
