@@ -16,12 +16,12 @@ body {
   margin: 3rem 0 0rem 0;
   display: flex;
   flex-direction: row;
-  gap: 4rem;
+  gap: 1rem;
 }
 
 .nav a {
   color: #C8A24E;
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-family: Georgia, serif;
   text-decoration: none;
   letter-spacing: 0.08em;
@@ -41,7 +41,10 @@ body {
 .logo img {
   display: block;
   margin: 0 auto;
+  width: 240px;      /* eller justera till t.ex. 200px, 180px osv */
+  height: auto;
 }
+
 
 /* Footer-text */
 .footer-symbol {
