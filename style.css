@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   html, body {
     margin: 0;
-    padding: 3rem 0 0 0;
+    padding: 1.5rem 0 0 0;
     height: auto !important;
     min-height: 0 !important;
     display: block !important;
