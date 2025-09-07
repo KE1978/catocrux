@@ -6,6 +6,7 @@
     min-height: 0 !important;
     display: block !important;
     overflow-y: hidden;       /* tar bort svart scroll */
+    overflow-x: hidden;
   }
 
   .nav {
